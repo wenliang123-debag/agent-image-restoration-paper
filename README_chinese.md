@@ -1,7 +1,6 @@
 # Agentic Image Restoration – Paper List & Notes
 
 本仓库整理“Agent / Agentic System 用于图像恢复（denoise / deblur / SR / mixed degradation）”相关论文。
-原则：只存链接与自写总结；引用统一放在 `references.bib`。
 
 ---
 
