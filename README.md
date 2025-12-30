@@ -19,8 +19,8 @@ Contributions are welcome!
 
 | Title & Authors | Intro | Useful Links |
 |---|---|---|
-| [AgenticIR: Agentic Image Restoration with Task Decomposition, Tool Inventory, and Reward-Guided Planning](https://arxiv.org/abs/2410.17809) <br> Kaiwen Zhu *et al.* <br> > Preprint'24 | <img src="https://github.com/Kaiwen-Zhu/AgenticIR/raw/main/assets/workflow.png" width="360" /> | [Github](https://github.com/Kaiwen-Zhu/AgenticIR) |
-| [JarvisIR: Elevating Autonomous Driving Perception with Intelligent Image Restoration](https://cvpr2025-jarvisir.github.io/) <br> Yunlong Lin *et al.* <br> > CVPR'25 | <img src="https://cvpr2025-jarvisir.github.io/imgs/framework.png" width="360" /> | [Page](https://cvpr2025-jarvisir.github.io/) · [Github](https://github.com/LYL1015/JarvisIR) |
+| [AgenticIR: Agentic Image Restoration with Task Decomposition, Tool Inventory, and Reward-Guided Planning](https://arxiv.org/abs/2410.17809) <br> Kaiwen Zhu *et al.* <br> > Preprint'24 | <img src="https://github.com/Kaiwen-Zhu/AgenticIR/raw/main/assets/workflow.png" width="420" /> | [Github](https://github.com/Kaiwen-Zhu/AgenticIR) |
+| [JarvisIR: Elevating Autonomous Driving Perception with Intelligent Image Restoration](https://cvpr2025-jarvisir.github.io/) <br> Yunlong Lin *et al.* <br> > CVPR'25 | <img src="https://cvpr2025-jarvisir.github.io/imgs/framework.png" width="420" /> | [Page](https://cvpr2025-jarvisir.github.io/) · [Github](https://github.com/LYL1015/JarvisIR) |
 | [Multi-Agent Image Restoration (MAIR)](https://arxiv.org/abs/2503.09403) <br> Xu Jiang *et al.* <br> > Preprint'25 | -- | [arXiv](https://arxiv.org/abs/2503.09403) |
 | [Hybrid Agents for Image Restoration (HybridAgent)](https://arxiv.org/abs/2503.10120) <br> Bingchen Li *et al.* <br> > Preprint'25 | -- | [arXiv](https://arxiv.org/abs/2503.10120) |
 | [Q-Agent: Quality-Driven Chain-of-Thought Image Restoration Agent](https://arxiv.org/abs/2504.07148) <br> Yingjie Zhou *et al.* <br> > Preprint'25 | -- | [arXiv](https://arxiv.org/abs/2504.07148) |
@@ -31,7 +31,7 @@ Contributions are welcome!
 
 | Title & Authors | Intro | Useful Links |
 |---|---|---|
-| [4KAgent: Agentic Any Image to 4K Super-Resolution](https://arxiv.org/abs/2507.07105) <br> Jiahao Zuo *et al.* <br> > Preprint'25 | <img src="https://github.com/taco-group/4KAgent/raw/main/assets/4KAgent_framework.png" width="360" /> | [Github](https://github.com/taco-group/4KAgent) |
+| [4KAgent: Agentic Any Image to 4K Super-Resolution](https://arxiv.org/abs/2507.07105) <br> Jiahao Zuo *et al.* <br> > Preprint'25 | <img src="https://github.com/taco-group/4KAgent/raw/main/assets/4KAgent_framework.png" width="420" /> | [Github](https://github.com/taco-group/4KAgent) |
 
 ---
 
@@ -40,7 +40,7 @@ Contributions are welcome!
 | Title & Authors | Intro | Useful Links |
 |---|---|---|
 | [LLMRA: Multi-modal Large Language Model based Restoration Assistant](https://arxiv.org/abs/2401.11401) <br> Xiaoyu Jin *et al.* <br> > Preprint'24 | -- | [arXiv](https://arxiv.org/abs/2401.11401) |
-| [AutoDIR: Automatic All-in-One Image Restoration with Latent Diffusion](https://arxiv.org/abs/2310.10123) <br> Yitong Jiang *et al.* <br> > Preprint'23 | <img src="https://jiangyitong.github.io/AutoDIR_webpage/static/images/method_full.png" width="360" /> | [Page](https://jiangyitong.github.io/AutoDIR_webpage/) · [Code](https://github.com/jiangyitong/AutoDIR) |
+| [AutoDIR: Automatic All-in-One Image Restoration with Latent Diffusion](https://arxiv.org/abs/2310.10123) <br> Yitong Jiang *et al.* <br> > Preprint'23 | <img src="https://jiangyitong.github.io/AutoDIR_webpage/static/images/method_full.png" width="420" /> | [Page](https://jiangyitong.github.io/AutoDIR_webpage/) · [Code](https://github.com/jiangyitong/AutoDIR) |
 
 ---
 
