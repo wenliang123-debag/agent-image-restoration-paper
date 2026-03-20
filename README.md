@@ -15,26 +15,7 @@ This shift is particularly important for computer vision problems that cannot be
 ## 🎯 Goal of Repository
 Our mission is to build a centralized and continuously evolving knowledge base for **agentic computer vision**, helping researchers and practitioners quickly understand the landscape, identify representative methods, access relevant codebases and benchmarks, and accelerate progress toward more autonomous and capable vision systems.
 
----
-
-## 📏 Project Scope
-This repository focuses on **agentic methods in computer vision**, namely systems that go beyond single-pass prediction and introduce explicit decision-making loops such as **perception → planning/scheduling → tool/model execution**, optionally enhanced by **reflection, rollback, search, or memory**.
-
-### 🌀 Included Content (In Scope)
-- Agentic methods for **image restoration**, **enhancement**, and **super-resolution**
-- Agentic methods for **photo retouching**, **image editing**, and **generation-editing workflows**
-- Vision-guided **tool-use agents** with explicit planning and execution
-- Multi-step visual pipelines involving **decomposition, scheduling, search, or control**
-- Systems with explicit **planner / executor / evaluator / reflector / memory** style designs
-- Benchmarks, datasets, and evaluation protocols for **agentic CV**
-- Open-source codebases, toolboxes, and platforms for **agentic vision systems**
-
-### 🌀 Excluded Content (Out of Scope)
-- Pure **all-in-one** or **instruction-only** vision models without explicit agent loops
-- Conventional end-to-end CV models without planning, scheduling, or tool orchestration
-- Generic LLM agents not centered on **computer vision tasks**
-- Pure image generation or editing methods without explicit agentic control
-- Traditional CV benchmarks or toolkits unrelated to **agentic workflows**
+**agentic workflows**
 
 ## Contents
 
