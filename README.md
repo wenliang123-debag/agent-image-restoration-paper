@@ -40,6 +40,7 @@ Our mission is to build a centralized and continuously evolving knowledge base f
 | [Hybrid Agents for Image Restoration (HybridAgent)](https://arxiv.org/abs/2503.10120) <br> Bingchen Li *et al.* <br> > Preprint'25 | -- | [arXiv](https://arxiv.org/abs/2503.10120) |
 | [Q-Agent: Quality-Driven Chain-of-Thought Image Restoration Agent](https://arxiv.org/abs/2504.07148) <br> Yingjie Zhou *et al.* <br> > Preprint'25 | -- | [arXiv](https://arxiv.org/abs/2504.07148) |
 | [4KAgent: Agentic Any Image to 4K Super-Resolution](https://arxiv.org/abs/2507.07105) <br> Jiahao Zuo *et al.* <br> > NeurIPS'25 | <a href="https://github.com/taco-group/4KAgent"><img src="https://github.com/taco-group/4KAgent/raw/main/assets/4KAgent_framework.png" width="960" alt="4KAgent framework" /></a> | [arXiv](https://arxiv.org/abs/2507.07105) · [GitHub](https://github.com/taco-group/4KAgent) · [Project Page](https://4kagent.github.io/) |
+| [Derain-Agent: A Plug-and-Play Agent Framework for Rainy Image Restoration](https://arxiv.org/abs/2603.11866) <br> Zhaocheng Yu *et al.* <br> > Preprint'26 | -- | [arXiv](https://arxiv.org/abs/2603.11866) |
 | [PaAgent: Portrait-Aware Image Restoration Agent via Subjective-Objective Reinforcement Learning](https://arxiv.org/abs/2603.17055) <br> Yijian Wang *et al.* <br> > Preprint'26 | <a href="https://wyjgr.github.io/PaAgent.html"><img src="https://wyjgr.github.io/images/PaAgent/Method/Framework.png" width="960" alt="PaAgent framework" /></a> | [arXiv](https://arxiv.org/abs/2603.17055) · [Project Page](https://wyjgr.github.io/PaAgent.html) |
 
 ---
