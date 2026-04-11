@@ -1,4 +1,4 @@
-# Awesome-Agentic-CV
+# Awesome Agentic Computer Vision
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
