@@ -1,26 +1,37 @@
-# Awesome Agentic Computer Vision
+<h1 align="center">Awesome Agentic Computer Vision</h1>
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+<p align="center">
+  <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
+  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome">
+</p>
 
-## 👋 Introduction
-**Awesome-Agentic-CV** collects research on **agentic computer vision**, especially methods that combine perception, planning, and tool use.
+<p align="center">
+  <strong>A curated collection of agentic computer vision papers, benchmarks, and tool-use systems.</strong><br>
+  Focused on methods that combine <strong>perception</strong>, <strong>planning</strong>, <strong>tool use</strong>, and <strong>interactive visual workflows</strong>.
+</p>
+
+<p align="center">
+  <a href="#agentic-low-level-vision">Agentic Low-Level Vision</a> ·
+  <a href="#agentic-image-editing--retouching">Image Editing / Retouching</a> ·
+  <a href="#general-vision-tool-use-agents">Vision Tool-Use Agents</a> ·
+  <a href="#benchmarks--datasets">Benchmarks</a> ·
+  <a href="#toolboxes--platforms">Toolboxes</a> ·
+  <a href="#contributing">Contributing</a>
+</p>
 
 ---
 
-## 🎯 Goal of Repository
-To provide a clear and updated resource for the **agentic CV** community.
+## 👋 Introduction
 
-**agentic workflows**
+**Awesome-Agentic-CV** collects research on **agentic computer vision**, especially methods that combine perception, planning, and tool use.
 
-## Contents
+## 🧭 Agentic Workflows
 
-- [Agentic Low-Level Vision](#agentic-low-level-vision)
-- [Agentic Image Editing / Retouching](#agentic-image-editing--retouching)
-- [General Vision Tool-Use Agents](#general-vision-tool-use-agents)
-- [Benchmarks & Datasets](#benchmarks--datasets)
-- [Toolboxes & Platforms](#toolboxes--platforms)
-- [Contributing](#contributing)
+- **[Agentic Low-Level Vision](#agentic-low-level-vision)**: image restoration, enhancement, super-resolution, and degradation-aware tool use.
+- **[Agentic Image Editing / Retouching](#agentic-image-editing--retouching)**: photo retouching, iterative editing, and generation-editing workflows.
+- **[General Vision Tool-Use Agents](#general-vision-tool-use-agents)**: visual perception coupled with multi-step tool use, planning, and execution.
+- **[Benchmarks & Datasets](#benchmarks--datasets)**: evaluation sets for restoration, editing, and visual tool-use agents.
+- **[Toolboxes & Platforms](#toolboxes--platforms)**: codebases, expert models, and reusable tool ecosystems.
 
 ---
 ## Agentic Low-Level Vision
@@ -30,16 +41,20 @@ To provide a clear and updated resource for the **agentic CV** community.
 | Title & Authors | Intro | Useful Links |
 |---|---|---|
 | [RestoreAgent: Autonomous Image Restoration Agent via Multimodal Large Language Models](https://arxiv.org/abs/2407.18035) <br> Haoyu Chen *et al.* <br> > NeurIPS'24 | <a href="https://haoyuchen.com/RestoreAgent"><img src="https://haoyuchen.com/assets/img/RestoreAgent/method.png" width="960" alt="RestoreAgent framework" /></a> | [arXiv](https://arxiv.org/abs/2407.18035) · [NeurIPS PDF](https://proceedings.neurips.cc/paper_files/paper/2024/file/c78f639424b8d89ceb4f2efbb4dfe4f4-Paper-Conference.pdf) · [Project Page](https://haoyuchen.com/RestoreAgent) |
-| [AgenticIR: Agentic Image Restoration with Task Decomposition, Tool Inventory, and Reward-Guided Planning](https://arxiv.org/abs/2410.17809) <br> Kaiwen Zhu *et al.* <br> > ICLR'25 | <a href="https://github.com/Kaiwen-Zhu/AgenticIR"><img src="https://github.com/Kaiwen-Zhu/AgenticIR/raw/main/assets/workflow.png" width="960" alt="AgenticIR framework" /></a> | [arXiv](https://arxiv.org/abs/2410.17809) · [GitHub](https://github.com/Kaiwen-Zhu/AgenticIR) · [OpenReview](https://openreview.net/forum?id=3RLxccFPHz) |
+| [AgenticIR: An Intelligent Agentic System for Complex Image Restoration Problems](https://arxiv.org/abs/2410.17809) <br> Kaiwen Zhu *et al.* <br> > ICLR'25 | <a href="https://github.com/Kaiwen-Zhu/AgenticIR"><img src="https://github.com/Kaiwen-Zhu/AgenticIR/raw/main/assets/workflow.png" width="960" alt="AgenticIR framework" /></a> | [arXiv](https://arxiv.org/abs/2410.17809) · [GitHub](https://github.com/Kaiwen-Zhu/AgenticIR) · [OpenReview](https://openreview.net/forum?id=3RLxccFPHz) |
 | [JarvisIR: Elevating Autonomous Driving Perception with Intelligent Image Restoration](https://arxiv.org/abs/2504.04158) <br> Yunlong Lin *et al.* <br> > CVPR'25 | <a href="https://github.com/LYL1015/JarvisIR"><img src="https://cvpr2025-jarvisir.github.io/imgs/framework.png" width="960" alt="JarvisIR framework" /></a> | [arXiv](https://arxiv.org/abs/2504.04158) · [Project Page](https://cvpr2025-jarvisir.github.io/) · [GitHub](https://github.com/LYL1015/JarvisIR) |
-| [Multi-Agent Image Restoration (MAIR)](https://arxiv.org/abs/2503.09403) <br> Xu Jiang *et al.* <br> > Preprint'25 | -- | [arXiv](https://arxiv.org/abs/2503.09403) |
-| [Hybrid Agents for Image Restoration (HybridAgent)](https://arxiv.org/abs/2503.10120) <br> Bingchen Li *et al.* <br> > Preprint'25 | -- | [arXiv](https://arxiv.org/abs/2503.10120) |
+| [Multi-Agent Image Restoration (MAIR)](https://arxiv.org/abs/2503.09403) <br> Xu Jiang *et al.* <br> > IJCV'26 | -- | [arXiv](https://arxiv.org/abs/2503.09403) |
+| [Hybrid Agents for Image Restoration (HybridAgent)](https://arxiv.org/abs/2503.10120) <br> Bingchen Li *et al.* <br> > CVPR'26 | -- | [arXiv](https://arxiv.org/abs/2503.10120) |
 | [Q-Agent: Quality-Driven Chain-of-Thought Image Restoration Agent](https://arxiv.org/abs/2504.07148) <br> Yingjie Zhou *et al.* <br> > Preprint'25 | -- | [arXiv](https://arxiv.org/abs/2504.07148) |
 | [4KAgent: Agentic Any Image to 4K Super-Resolution](https://arxiv.org/abs/2507.07105) <br> Jiahao Zuo *et al.* <br> > NeurIPS'25 | <a href="https://github.com/taco-group/4KAgent"><img src="https://github.com/taco-group/4KAgent/raw/main/assets/4KAgent_framework.png" width="960" alt="4KAgent framework" /></a> | [arXiv](https://arxiv.org/abs/2507.07105) · [GitHub](https://github.com/taco-group/4KAgent) · [Project Page](https://4kagent.github.io/) |
+| [IAMAgent: Toward an Interactive and Adaptive Multi-Agent System for Image Restoration](https://doi.org/10.1109/TIP.2026.3671594) <br> Yanyan Wei *et al.* <br> > IEEE TIP'26 | -- | [DOI](https://doi.org/10.1109/TIP.2026.3671594) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/41817987/) |
 | [Derain-Agent: A Plug-and-Play Agent Framework for Rainy Image Restoration](https://arxiv.org/abs/2603.11866) <br> Zhaocheng Yu *et al.* <br> > Preprint'26 | -- | [arXiv](https://arxiv.org/abs/2603.11866) |
 | [PaAgent: Portrait-Aware Image Restoration Agent via Subjective-Objective Reinforcement Learning](https://arxiv.org/abs/2603.17055) <br> Yijian Wang *et al.* <br> > Preprint'26 | <a href="https://wyjgr.github.io/PaAgent.html"><img src="https://wyjgr.github.io/images/PaAgent/Method/Framework.png" width="960" alt="PaAgent framework" /></a> | [arXiv](https://arxiv.org/abs/2603.17055) · [Project Page](https://wyjgr.github.io/PaAgent.html) · [GitHub](https://github.com/WYJGR/PaAgent) |
 | [Restore-R1: Efficient Image Restoration Agents via Reinforcement Learning with Multimodal LLM Perceptual Feedback](https://arxiv.org/abs/2512.18599) <br> Jianglin Lu *et al.* <br> > CVPR Findings'26 | -- | [arXiv](https://arxiv.org/abs/2512.18599) |
 | [TIR-Agent: Training an Explorative and Efficient Agent for Image Restoration](https://arxiv.org/abs/2603.27742) <br> Yisheng Zhang *et al.* <br> > Preprint'26 | -- | [arXiv](https://arxiv.org/abs/2603.27742) |
+| [OPERA: An Agent for Image Restoration with End-to-End Joint Planning-Execution Optimization](https://arxiv.org/abs/2605.22104) <br> Feng Zhu *et al.* <br> > Preprint'26 | -- | [arXiv](https://arxiv.org/abs/2605.22104) |
+| [EvoIR-Agent: Self-Evolving Image Restoration Agentic System via Experience-Driven Learning](https://arxiv.org/abs/2605.22208) <br> Kailin Zhuang *et al.* <br> > Preprint'26 | -- | [arXiv](https://arxiv.org/abs/2605.22208) |
+| [DiTTo: Scalable Order-aware All-in-One Image Restoration Agent](https://arxiv.org/abs/2605.30915) <br> Seungho Choi and Jihyong Oh <br> > Preprint'26 | <a href="https://cmlab-korea.github.io/DiTTo/"><img src="https://cmlab-korea.github.io/DiTTo/static/images/DiTTo.png" width="960" alt="DiTTo framework" /></a> | [arXiv](https://arxiv.org/abs/2605.30915) · [Project Page](https://cmlab-korea.github.io/DiTTo/) · [GitHub](https://github.com/CMLab-Korea/DiTTo-arxiv) |
 ---
 
 ## Agentic Image Editing / Retouching
@@ -84,14 +99,16 @@ To provide a clear and updated resource for the **agentic CV** community.
 | **ArtEdit-Bench** | Photo editing benchmark released with JarvisEvo | [JarvisEvo Repo](https://github.com/LYL1015/JarvisEvo) |
 | **AgentVista** | Benchmark for realistic multimodal visual agents | [Project Page](https://agentvista-bench.github.io/) |
 | **VTC-Bench** | Benchmark for compositional visual tool chaining / visual tool-use evaluation | [arXiv](https://arxiv.org/abs/2603.15030) |
+| **MiO-100** | Multi-degradation image restoration evaluation set used by recent agentic IR works | [DiTTo Page](https://cmlab-korea.github.io/DiTTo/) |
 
 ---
 ## Toolboxes & Platforms
 
 ### Toolboxes / Codebases
-- **AgenticIR**, **JarvisIR**, **4KAgent**
+- **AgenticIR**, **JarvisIR**, **4KAgent**, **IAMAgent**
 - **CoSTAR / FaSTAR**, **PhotoAgent**
 - **Agent Banana**, **JarvisArt / JarvisEvo**
+- **Derain-Agent**, **PaAgent**, **Restore-R1**, **TIR-Agent**, **OPERA**, **EvoIR-Agent**, **DiTTo**
 - **VTool-R1 / ToolScope / T3-Agent**
 
 ### Expert Models / Backbones
