@@ -55,6 +55,7 @@
 | [OPERA: An Agent for Image Restoration with End-to-End Joint Planning-Execution Optimization](https://arxiv.org/abs/2605.22104) <br> Feng Zhu *et al.* <br> > Preprint'26 | -- | [arXiv](https://arxiv.org/abs/2605.22104) |
 | [EvoIR-Agent: Self-Evolving Image Restoration Agentic System via Experience-Driven Learning](https://arxiv.org/abs/2605.22208) <br> Kailin Zhuang *et al.* <br> > Preprint'26 | -- | [arXiv](https://arxiv.org/abs/2605.22208) |
 | [DiTTo: Scalable Order-aware All-in-One Image Restoration Agent](https://arxiv.org/abs/2605.30915) <br> Seungho Choi and Jihyong Oh <br> > Preprint'26 | <a href="https://cmlab-korea.github.io/DiTTo/"><img src="https://cmlab-korea.github.io/DiTTo/static/images/DiTTo.png" width="960" alt="DiTTo framework" /></a> | [arXiv](https://arxiv.org/abs/2605.30915) · [Project Page](https://cmlab-korea.github.io/DiTTo/) · [GitHub](https://github.com/CMLab-Korea/DiTTo-arxiv) |
+| [Self-Evolving Agentic Image Restoration via Deliberate Planning and Intuitive Execution (SEAR)](https://arxiv.org/abs/2606.28971) <br> Shuang Cui *et al.* <br> > Preprint'26 | <a href="https://arxiv.org/abs/2606.28971"><img src="https://arxiv.org/html/2606.28971v1/x3.png" width="960" alt="SEAR framework" /></a> | [arXiv](https://arxiv.org/abs/2606.28971) · [PDF](https://arxiv.org/pdf/2606.28971) · [HTML](https://arxiv.org/html/2606.28971) |
 ---
 
 ## Agentic Image Editing / Retouching
