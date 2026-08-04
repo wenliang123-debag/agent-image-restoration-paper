@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <entry>
+    <id>https://arxiv.org/abs/2608.01234v1</id>
+    <title>  A Test Agent for Image Restoration  </title>
+    <summary>A deterministic fixture for catalog tests.</summary>
+    <published>2026-08-03T00:00:00Z</published>
+    <author><name>Alice Example</name></author>
+    <author><name>Bob Example</name></author>
+  </entry>
+</feed>

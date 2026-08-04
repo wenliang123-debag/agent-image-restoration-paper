@@ -1,0 +1,21 @@
+name: Catalog checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Test automation
+        run: python3 -m unittest discover -s tests
+      - name: Validate catalog
+        run: python3 scripts/validate_catalog.py
