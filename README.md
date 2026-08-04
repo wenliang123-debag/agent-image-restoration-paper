@@ -3,8 +3,6 @@
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
   <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome">
-  <a href="https://github.com/wenliang123-debag/agent-image-restoration-paper/actions/workflows/catalog-check.yml"><img src="https://github.com/wenliang123-debag/agent-image-restoration-paper/actions/workflows/catalog-check.yml/badge.svg" alt="Catalog checks"></a>
-  <a href="https://github.com/wenliang123-debag/agent-image-restoration-paper/actions/workflows/weekly-paper-update.yml"><img src="https://github.com/wenliang123-debag/agent-image-restoration-paper/actions/workflows/weekly-paper-update.yml/badge.svg" alt="Weekly paper discovery"></a>
 </p>
 
 <p align="center">
@@ -52,6 +50,7 @@
 | [OPERA: An Agent for Image Restoration with End-to-End Joint Planning-Execution Optimization](https://arxiv.org/abs/2605.22104) <br> Feng Zhu *et al.* <br> > Preprint'26 | <a href="https://github.com/xsyshuishui/Opera"><img src="https://arxiv.org/html/2605.22104v1/x2.png" width="960" alt="OPERA framework" /></a> | [arXiv](https://arxiv.org/abs/2605.22104) · [PDF](https://arxiv.org/pdf/2605.22104) · [GitHub](https://github.com/xsyshuishui/Opera) |
 | [EvoIR-Agent: Self-Evolving Image Restoration Agentic System via Experience-Driven Learning](https://arxiv.org/abs/2605.22208v1) <br> Kailin Zhuang *et al.* <br> > Preprint'26 | -- | [arXiv v1](https://arxiv.org/abs/2605.22208v1) · [PDF v1](https://arxiv.org/pdf/2605.22208v1) · [GitHub](https://github.com/rightleft-123/EvoIRAgent) |
 | [Self-Evolving Agentic Image Restoration via Deliberate Planning and Intuitive Execution (SEAR)](https://arxiv.org/abs/2606.28971) <br> Shuang Cui *et al.* <br> > Preprint'26 | <a href="https://arxiv.org/abs/2606.28971"><img src="https://arxiv.org/html/2606.28971v1/x3.png" width="960" alt="SEAR framework" /></a> | [arXiv](https://arxiv.org/abs/2606.28971) · [PDF](https://arxiv.org/pdf/2606.28971) · [HTML](https://arxiv.org/html/2606.28971) |
+| [Causal-AgentIR: Self-Evolving Causal Memory for Adaptive Image Restoration Agents](https://arxiv.org/abs/2607.21125) <br> Hu Gao *et al.* <br> > Preprint'26 | -- | [arXiv](https://arxiv.org/abs/2607.21125) · [PDF](https://arxiv.org/pdf/2607.21125) · [HTML](https://arxiv.org/html/2607.21125) |
 ---
 
 ## Agentic Image Editing / Retouching
@@ -72,6 +71,8 @@
 | [RetouchIQ: MLLM Agents for Instruction-Based Image Retouching with Generalist Reward](https://arxiv.org/abs/2602.17558) <br> Qianqian Wu *et al.* <br> > Preprint'26 | -- | [arXiv](https://arxiv.org/abs/2602.17558) |
 | [Agentic Retoucher for Text-To-Image Generation](https://arxiv.org/abs/2601.02046) <br> Shaocheng Shen *et al.* <br> > CVPR'26 | -- | [arXiv](https://arxiv.org/abs/2601.02046) |
 | [CAMEO: A Conditional and Quality-Aware Multi-Agent Image Editing Orchestrator](https://arxiv.org/abs/2604.03156) <br> Yuhan Pu *et al.* <br> > Preprint'26 | -- | [arXiv](https://arxiv.org/abs/2604.03156) |
+| [What Can I Edit? Open-Ended Strategy Discovery and the Emotion Editability Landscape (EmoScope)](https://arxiv.org/abs/2607.23920) <br> Qing Li *et al.* <br> > Preprint'26 | -- | [arXiv](https://arxiv.org/abs/2607.23920) · [PDF](https://arxiv.org/pdf/2607.23920) · [HTML](https://arxiv.org/html/2607.23920) |
+| [DrawAI: Agentic Benchmark and Workflow for Making Raster Images Editable](https://arxiv.org/abs/2608.00548) <br> Pu Cao *et al.* <br> > Preprint'26 | -- | [arXiv](https://arxiv.org/abs/2608.00548) · [PDF](https://arxiv.org/pdf/2608.00548) · [HTML](https://arxiv.org/html/2608.00548) · [Project Page](https://drawai.renaissancemind.ai/) |
 ---
 
 ## General Vision Tool-Use Agents
@@ -83,6 +84,10 @@
 | [Multi-modal Agent Tuning: Building a VLM-Driven Agent for Efficient Tool Usage](https://arxiv.org/abs/2412.15606) <br> Zhi Gao *et al.* <br> > ICLR'25 | -- | [arXiv](https://arxiv.org/abs/2412.15606) · [Project Page](https://mat-agent.github.io/) |
 | [VTool-R1: VLMs Learn to Think with Images via Reinforcement Learning on Multimodal Tool Use](https://arxiv.org/abs/2505.19255) <br> Minghao Wu *et al.* <br> > ICLR'26 | <a href="https://github.com/VTOOL-R1/vtool-r1"><img src="https://github.com/VTool-R1/VTool-R1/raw/main/vtool_example.png" width="960" alt="VTool-R1 example" /></a> | [arXiv](https://arxiv.org/abs/2505.19255) · [Project Page](https://vtool-r1.github.io/) · [GitHub](https://github.com/VTOOL-R1/vtool-r1) |
 | [ToolScope: An Agentic Framework for Vision-Guided and Long-Horizon Tool Use](https://arxiv.org/abs/2510.27363) <br> Mengjie Deng *et al.* <br> > Preprint'25 | <a href="https://github.com/dengmengjie/ToolScope"><img src="https://github.com/dengmengjie/ToolScope/raw/main/assets/overview.png" width="960" alt="ToolScope framework" /></a> | [arXiv](https://arxiv.org/abs/2510.27363) · [GitHub](https://github.com/dengmengjie/ToolScope) |
+| [SpatialCLI: Learning to Reason With Spatial Tools, Then Without Them](https://arxiv.org/abs/2607.27703) <br> Yang Zhou *et al.* <br> > Preprint'26 | -- | [arXiv](https://arxiv.org/abs/2607.27703) · [PDF](https://arxiv.org/pdf/2607.27703) · [HTML](https://arxiv.org/html/2607.27703) |
+| [FaithEyes: Towards Faithful Tool Use via Multi-Agent Process-Image Verification](https://arxiv.org/abs/2607.28225) <br> Haoqing Wang *et al.* <br> > Preprint'26 | -- | [arXiv](https://arxiv.org/abs/2607.28225) · [PDF](https://arxiv.org/pdf/2607.28225) · [HTML](https://arxiv.org/html/2607.28225) · [GitHub](https://github.com/Mosi-AI/FaithEyes) |
+| [Beacon: Knowing When and How to Perform Agentic Visual Reasoning](https://arxiv.org/abs/2607.28595) <br> Qixun Wang *et al.* <br> > Preprint'26 | -- | [arXiv](https://arxiv.org/abs/2607.28595) · [PDF](https://arxiv.org/pdf/2607.28595) · [HTML](https://arxiv.org/html/2607.28595) |
+| [VC-Tooler: Learning Compositional and Adaptive Visual Tool Use](https://arxiv.org/abs/2608.02217) <br> Yizheng Wu *et al.* <br> > Preprint'26 | -- | [arXiv](https://arxiv.org/abs/2608.02217) · [PDF](https://arxiv.org/pdf/2608.02217) · [Project Page](https://w1zheng.github.io/VC-Tooler/) |
 
 ---
 
@@ -119,15 +124,3 @@
 - Prefer official links
 - Keep the format consistent
 - Only include clearly agentic work
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for the review workflow and local validation commands.
-
----
-
-## 🤖 Automatically Discovered Candidates
-
-The weekly automation places recent arXiv matches here for human review. Entries in this queue are **not yet endorsed** by the curated list.
-
-<!-- AUTO-CANDIDATES:START -->
-_No papers are waiting for review._
-<!-- AUTO-CANDIDATES:END -->
