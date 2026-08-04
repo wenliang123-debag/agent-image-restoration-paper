@@ -3,6 +3,8 @@
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
   <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome">
+  <a href="https://github.com/wenliang123-debag/agent-image-restoration-paper/actions/workflows/catalog-check.yml"><img src="https://github.com/wenliang123-debag/agent-image-restoration-paper/actions/workflows/catalog-check.yml/badge.svg" alt="Catalog checks"></a>
+  <a href="https://github.com/wenliang123-debag/agent-image-restoration-paper/actions/workflows/weekly-paper-update.yml"><img src="https://github.com/wenliang123-debag/agent-image-restoration-paper/actions/workflows/weekly-paper-update.yml/badge.svg" alt="Weekly paper discovery"></a>
 </p>
 
 <p align="center">
@@ -48,7 +50,7 @@
 | [Restore-R1: Efficient Image Restoration Agents via Reinforcement Learning with Multimodal LLM Perceptual Feedback](https://arxiv.org/abs/2512.18599) <br> Jianglin Lu *et al.* <br> > CVPR Findings'26 | <a href="https://arxiv.org/abs/2512.18599"><img src="https://arxiv.org/html/2512.18599v2/x2.png" width="960" alt="Restore-R1 framework" /></a> | [arXiv](https://arxiv.org/abs/2512.18599) · [CVPR PDF](https://openaccess.thecvf.com/content/CVPR2026F/papers/Lu_Restore-R1_Efficient_Image_Restoration_Agents_via_Reinforcement_Learning_with_Multimodal_CVPRF_2026_paper.pdf) · [HTML](https://arxiv.org/html/2512.18599v2) |
 | [TIR-Agent: Training an Explorative and Efficient Agent for Image Restoration](https://arxiv.org/abs/2603.27742) <br> Yisheng Zhang *et al.* <br> > Preprint'26 | <a href="https://arxiv.org/abs/2603.27742"><img src="https://arxiv.org/html/2603.27742v1/images/pipeline.png" width="960" alt="TIR-Agent training framework" /></a> | [arXiv](https://arxiv.org/abs/2603.27742) · [PDF](https://arxiv.org/pdf/2603.27742) · [HTML](https://arxiv.org/html/2603.27742) |
 | [OPERA: An Agent for Image Restoration with End-to-End Joint Planning-Execution Optimization](https://arxiv.org/abs/2605.22104) <br> Feng Zhu *et al.* <br> > Preprint'26 | <a href="https://github.com/xsyshuishui/Opera"><img src="https://arxiv.org/html/2605.22104v1/x2.png" width="960" alt="OPERA framework" /></a> | [arXiv](https://arxiv.org/abs/2605.22104) · [PDF](https://arxiv.org/pdf/2605.22104) · [GitHub](https://github.com/xsyshuishui/Opera) |
-| [EvoIR-Agent: Self-Evolving Image Restoration Agentic System via Experience-Driven Learning](https://arxiv.org/abs/2605.22208v1) <br> Kailin Zhuang *et al.* <br> > Preprint'26 | <a href="https://arxiv.org/pdf/2605.22208v1"><img src="./assets/evoir_agent_framework.png" width="960" alt="EvoIR-Agent framework" /></a> | [arXiv v1](https://arxiv.org/abs/2605.22208v1) · [PDF v1](https://arxiv.org/pdf/2605.22208v1) · [GitHub](https://github.com/rightleft-123/EvoIRAgent) |
+| [EvoIR-Agent: Self-Evolving Image Restoration Agentic System via Experience-Driven Learning](https://arxiv.org/abs/2605.22208v1) <br> Kailin Zhuang *et al.* <br> > Preprint'26 | -- | [arXiv v1](https://arxiv.org/abs/2605.22208v1) · [PDF v1](https://arxiv.org/pdf/2605.22208v1) · [GitHub](https://github.com/rightleft-123/EvoIRAgent) |
 | [Self-Evolving Agentic Image Restoration via Deliberate Planning and Intuitive Execution (SEAR)](https://arxiv.org/abs/2606.28971) <br> Shuang Cui *et al.* <br> > Preprint'26 | <a href="https://arxiv.org/abs/2606.28971"><img src="https://arxiv.org/html/2606.28971v1/x3.png" width="960" alt="SEAR framework" /></a> | [arXiv](https://arxiv.org/abs/2606.28971) · [PDF](https://arxiv.org/pdf/2606.28971) · [HTML](https://arxiv.org/html/2606.28971) |
 ---
 
@@ -117,3 +119,15 @@
 - Prefer official links
 - Keep the format consistent
 - Only include clearly agentic work
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the review workflow and local validation commands.
+
+---
+
+## 🤖 Automatically Discovered Candidates
+
+The weekly automation places recent arXiv matches here for human review. Entries in this queue are **not yet endorsed** by the curated list.
+
+<!-- AUTO-CANDIDATES:START -->
+_No papers are waiting for review._
+<!-- AUTO-CANDIDATES:END -->
