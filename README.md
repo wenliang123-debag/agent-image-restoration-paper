@@ -68,6 +68,7 @@ Preprint and submission labels do not indicate acceptance. A dash in the Code co
 |---|---|---|
 | **CleanBench** | Training / evaluation resource for restoration agents; the author release distinguishes paper-test and later Real-80K splits | [JarvisIR Repo](https://github.com/LYL1015/JarvisIR) · [JarvisIR Page](https://cvpr2025-jarvisir.github.io/) |
 | **MiO-100** | Multi-degradation image restoration evaluation set used by recent agentic IR works | [DiTTo Page](https://cmlab-korea.github.io/DiTTo/) |
+| **Real-1000** | Real-world image restoration benchmark covering single and mixed degradations. Public download not verified. | [CVPR 2026 paper](https://openaccess.thecvf.com/content/CVPR2026/html/Xiong_Beyond_Sequential_Tools_A_Unified_VLM_Agent_System_for_Photographic_CVPR_2026_paper.html) |
 
 ---
 ## Toolboxes & Platforms
