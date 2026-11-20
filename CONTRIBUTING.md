@@ -1,34 +1,21 @@
-# 人工贡献与维护指南
+# Contributing
 
-## 收录与来源
+## Scope and sources
 
-范围：感知、规划、工具调用或反馈形成的视觉工作流；纯视觉骨干放在工具区，不作为 agent 论文收录。
+Vision agents must use planning, tool calls, or feedback in a visual workflow. List standalone vision models only as supporting tools.
 
-1. 先搜索现有题名和 arXiv ID / DOI，避免把版本更新当新论文重复加入。
-2. 优先检查正式出版页、arXiv、OpenReview 的明确 decision/venue，再补作者项目或代码入口。逐项核对完整题名、首作者和作者顺序、年份、版本与发表状态。
-3. 未确认录用的稿件标为 Preprint / submission。投稿到某会议、作者简介、代码仓库年份或 arXiv 编号均不能单独证明录用；可在来源记录中说明确认依据。
-4. 不复制私有稿件、评审内容或未经许可的资料；只收录公开原始来源。新增论文必须有清楚的范围理由。
-5. 保持论文表格三列；缩写放在题名链接之后。作者代码与项目主页使用准确标签，未找到代码时不要把论文页标成代码。
+1. Search the catalog by title, arXiv ID, and DOI before adding a paper. Update existing entries when a final version appears.
+2. Verify the title, authors, version, and venue against a publisher, proceedings, arXiv, or a confirmed OpenReview decision.
+3. Label unconfirmed manuscripts as preprints or submissions. An OpenReview submission or a code repository alone does not establish acceptance.
+4. Use public primary sources only. Explain why a paper fits the catalog; do not share private submissions or reviews.
+5. Use the four-column format: **Paper | Venue | Link | Code**. List the lead author, keep paper and project links separate from code, and use a dash if no code link is available. Put optional summaries and figure links in the companion notes.
 
-## 一轮修改的检查
+## Before opening a pull request
 
-- 从最新 main 建独立分支，保留原工作目录的未提交修改。
-- 检查 Markdown 表格列数、重复论文标识、标题锚点、相对路径与新增 URL 格式；预览 GitHub 渲染结果。
-- 实际打开新增或变更的外链，核对目标内容。403、验证页、超时或工具访问失败记为“未完成复核”，不能当作断链或通过。
-- 论文图示是外部资源；正文入口独立可用。图示变动需核对文件路径与对应论文版本，不重新授权外部图片。
-- 在 PR 里写清本轮修改、来源与核验日期、实际运行的检查和未决项；未跑 CI 不写 CI 通过。
-- 涉及 SNN 能效时，记录硬件、时间步和测量/估算方式，不把不同协议的数字直接排名。
+- Branch from the latest `main` without disturbing uncommitted work. Keep changes focused.
+- Check table columns, duplicate identifiers, section anchors, and relative paths. Preview rendering and open all new or changed external links. Record access errors as unverified.
+- Verify figure paths and versions. External images and other resources retain their original terms.
+- If reporting energy, record hardware, time steps, and how energy was measured or estimated. Do not rank results from incompatible protocols.
+- Include sources, verification date, rationale, checks actually run, and any open issues. Do not report CI as passed if it did not run.
 
-## 手工 PR 记录模板
-
-```text
-论文或资源：
-原始来源 URL / arXiv ID / DOI：
-核验日期：
-范围理由与改动：
-题名、作者、版本、发表状态依据：
-本地检查与外链结果：
-待复核项（如有）：
-```
-
-本指南不创建维护周期或定时任务。每轮完成后由所有者审阅 PR；论文增补、自动化或发布授权分别确认。
+This is a manual catalog. The owner reviews each pull request; adding papers, enabling automation, and publishing changes are separate decisions.
