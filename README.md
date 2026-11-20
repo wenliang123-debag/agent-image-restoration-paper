@@ -27,7 +27,7 @@
 
 The repository keeps its historical name `agent-image-restoration-paper`; the current catalog covers restoration, image editing, and general visual tool use. A vision backbone alone is not an agentic method. The expert-model links below are supporting tools, separate from the paper catalog.
 
-**Catalog check: 2026-10-25 · 46 paper entries.** [Source checks and pending items](docs/verification-2026-10-25.md) · [Manual contribution guide](CONTRIBUTING.md). Preprint labels describe public manuscripts, not acceptance.
+**Catalog check: 2026-11-20 · 52 paper entries.** [October source checks and pending items](docs/verification-2026-10-25.md) · [Manual contribution guide](CONTRIBUTING.md). Preprint labels describe public manuscripts, not acceptance.
 
 ## 🧭 Agentic Workflows
 
@@ -70,6 +70,11 @@ The repository keeps its historical name `agent-image-restoration-paper`; the cu
 | [Agentic AI-powered flexible fiber-bundle endoscopy for high-resolution NIR-II fluorescence imaging in vivo](https://arxiv.org/abs/2608.08402) <br> Yanzhao Shi *et al.* <br> > Preprint'26 † | -- | [arXiv](https://arxiv.org/abs/2608.08402) · [PDF](https://arxiv.org/pdf/2608.08402) |
 | [VLM- and LLM-Driven Multi-Agent System for PET Image Denoising](https://arxiv.org/abs/2608.13791) <br> Boxiao Yu *et al.* <br> > Preprint'26 † | <a href="https://arxiv.org/abs/2608.13791"><img src="https://arxiv.org/html/2608.13791v1/images/Flowchart.jpg" width="960" alt="PET multi-agent denoising framework" /></a> | [arXiv](https://arxiv.org/abs/2608.13791) · [PDF](https://arxiv.org/pdf/2608.13791) · [HTML](https://arxiv.org/html/2608.13791) |
 | [SkillIR: Evolving Scene-Aware Skills for Agentic Image Restoration](https://arxiv.org/abs/2609.21468) <br> Jie Shao *et al.* <br> > Preprint'26 | Scene-aware skills and verified residual-state tool use for multi-degradation restoration. | [arXiv](https://arxiv.org/abs/2609.21468) · [PDF](https://arxiv.org/pdf/2609.21468) |
+| [PrismRestore: A Compact Restoration Toolbox for Agentic Image Restoration](https://arxiv.org/abs/2611.24915) <br> Zhaocheng Yu *et al.* <br> > Preprint'26 | A learned policy composes restoration actions exposed by channel modulation in a single frozen backbone. | [arXiv](https://arxiv.org/abs/2611.24915) · [HTML](https://arxiv.org/html/2611.24915v1) |
+| [RecurIR: Learning When and How to Revise Restoration Policies via Recursive Self-Improvement](https://arxiv.org/abs/2611.18006) <br> Hu Gao *et al.* <br> > Preprint'26 | Tests restoration rules against targeted degradation changes and verifies policy revisions before retaining them. | [arXiv](https://arxiv.org/abs/2611.18006) · [HTML](https://arxiv.org/html/2611.18006v1) |
+| [Look Before You Restore: Learning to Predict Before Acting for Agentic Image Restoration](https://arxiv.org/abs/2610.20384) (PreActIR) <br> Xu Zhang *et al.* <br> > Preprint'26 | Predicts tool outcomes before execution and independently verifies whether to keep or roll back the result. | [arXiv](https://arxiv.org/abs/2610.20384) · [HTML](https://arxiv.org/html/2610.20384v1) · [GitHub](https://github.com/House-yuyu/PreActIR) |
+| [HarnessIR: Harnessing Multimodal Foundation Models for Universal Real-World Image Restoration](https://arxiv.org/abs/2610.10133) <br> Xiangtao Kong *et al.* <br> > Preprint'26 | Gathers diagnostic evidence for a multimodal foundation model that restores the image, then checks whether further refinement is needed. | [arXiv](https://arxiv.org/abs/2610.10133) · [GitHub](https://github.com/PolyU-VCLab/HarnessIR) |
+| [EORestore-Agent: Fidelity-Guided Agentic Restoration of Remote Sensing Images with Composite Degradations](https://arxiv.org/abs/2610.06196) <br> Heli Qi *et al.* <br> > Preprint'26 † | Detects residual degradations and uses reference-free quality predictions to decide which remote-sensing restoration steps to keep. | [arXiv](https://arxiv.org/abs/2610.06196) · [HTML](https://arxiv.org/html/2610.06196v1) |
 
 > † Task- or domain-specific low-level vision agent. These papers remain in the same table to avoid fragmenting a still-small literature into many subsections.
 
@@ -95,6 +100,7 @@ The repository keeps its historical name `agent-image-restoration-paper`; the cu
 | [CAMEO: A Conditional and Quality-Aware Multi-Agent Image Editing Orchestrator](https://arxiv.org/abs/2604.03156) <br> Yuhan Pu *et al.* <br> > Preprint'26 | -- | [arXiv](https://arxiv.org/abs/2604.03156) |
 | [What Can I Edit? Open-Ended Strategy Discovery and the Emotion Editability Landscape](https://arxiv.org/abs/2607.23920) (EmoScope) <br> Qing Li *et al.* <br> > Preprint'26 | -- | [arXiv](https://arxiv.org/abs/2607.23920) · [PDF](https://arxiv.org/pdf/2607.23920) · [HTML](https://arxiv.org/html/2607.23920) |
 | [DrawAI: Agentic Benchmark and Workflow for Making Raster Images Editable](https://arxiv.org/abs/2608.00548) <br> Pu Cao *et al.* <br> > Preprint'26 | -- | [arXiv](https://arxiv.org/abs/2608.00548) · [PDF](https://arxiv.org/pdf/2608.00548) · [HTML](https://arxiv.org/html/2608.00548) · [Project Page](https://drawai.renaissancemind.ai/) |
+| [EditAgent: Rethinking Agentic Image Editing](https://arxiv.org/abs/2610.39664) <br> Haiyang Xu *et al.* <br> > Preprint'26 | Runs multiple editing tools in parallel and compares candidates with a vision-language judge that receives verification evidence. | [arXiv](https://arxiv.org/abs/2610.39664) · [Project Page](https://editagent.github.io/) |
 ---
 
 ## General Vision Tool-Use Agents
