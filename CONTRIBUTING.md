@@ -2,7 +2,7 @@
 
 ## Scope and sources
 
-Vision agents must use planning, tool calls, or feedback in a visual workflow. List standalone vision models only as supporting tools.
+Include agents for image restoration, enhancement, or super-resolution that use planning, tool calls, or feedback. Standalone restoration models belong under supporting tools. General visual tool use and creative editing are outside the active catalog.
 
 1. Search the catalog by title, arXiv ID, and DOI before adding a paper. Update existing entries when a final version appears.
 2. Verify the title, authors, version, and venue against a publisher, proceedings, arXiv, or a confirmed OpenReview decision.
